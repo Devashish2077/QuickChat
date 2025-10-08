@@ -8,13 +8,13 @@ A realtime/chat application.
 |------------------------|----------------------------------------------------------------------------------------|
 | Frontend               | React, CSS / SCSS, HTML, Axios (or fetch), WebSockets / Socket.io                     |
 | Backend                | Node.js, Express.js                                                                    |
-| Real-time / Communication | Socket.io (or WebSocket library)                                                    |
-| Database / Storage     | (If applicable) — e.g. MongoDB, PostgreSQL, or whichever is used                       |
-| Environment / Runtime  | Node.js (version …)                                                                     |
-| Package Management     | npm (or yarn)                                                                           |
-| Build / Bundling        | Create React App / Webpack / Babel (if used)                                          |
-| Linting / Formatting    | ESLint, Prettier (if present)                                                          |
-| Deployment / Dev ops    | (e.g. Heroku, Docker, Vercel, etc, if used)                                           |
+| Real-time / Communication | Socket.io                                                    |
+| Database / Storage     | MongoDB                       |
+| Environment / Runtime  | Node.js                                                                      |
+| Package Management     | npm                                                                            |
+| Build / Bundling        | Create React App / Webpack /                                          |
+| Linting / Formatting    | ESLint, Prettier                                                          |
+| Deployment / Dev ops    | Vercel                                          |
 
 > ⚠️ **Note:** The exact database and some tooling may depend on what’s implemented in the `server` folder. I did not find a database layer in the repo’s main files — if one exists (or you plan to add), include it above.
 
