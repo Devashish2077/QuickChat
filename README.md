@@ -16,7 +16,51 @@ A realtime/chat application.
 | Linting / Formatting    | ESLint, Prettier                                                          |
 | Deployment / Dev ops    | Vercel                                          |
 
-> ⚠️ **Note:** The exact database and some tooling may depend on what’s implemented in the `server` folder. I did not find a database layer in the repo’s main files — if one exists (or you plan to add), include it above.
-
 ## Project Structure (based on repo)
+/
+├── client/ ← frontend React app
+├── server/ ← backend Express / Node.js api
+└── .gitignore
 
+
+## Prerequisites
+
+- Node.js installed (version ≥ 14 recommended)
+- npm (comes with Node.js)  
+- (If using a database) the database service running (e.g. MongoDB instance)
+
+## Setup & Running
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/Devashish2077/QuickChat.git
+cd QuickChat
+
+# In root (optional, if dependencies are in subfolders)
+npm install
+
+# For client
+cd client
+npm install
+
+# For server
+cd ../server
+npm install
+
+# Run backend (server)
+cd server
+npm run dev   # or npm run server (whichever is configured)
+
+# Run frontend (client)
+cd ../client
+npm start
+
+# Build frontend
+cd client
+npm run build
+
+# Serve backend (which may serve the built frontend)
+cd ../server
+npm start
+ 
